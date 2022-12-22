@@ -412,7 +412,7 @@ public class GoFish {
         }
     }
 
-    private static void displayHand(int x) { //displays the hand of the selected player
+    private static void displayHand(int x) { //displays the hand of the selected player 
         if(x==PLAYER)
             System.out.println(" Your hand: "+playerHand);
         if(x==CPU1)
