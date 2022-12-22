@@ -369,7 +369,7 @@ public class GoFish {
         }
     }
 
-    private static void displayScore(int player) { //displays the score of the selected player
+    private static void displayScore(int player) { //displays the score of the selected player 
         if(player==PLAYER)
             System.out.println(" Your score: "+playerScore);
         else if(player==CPU1)
